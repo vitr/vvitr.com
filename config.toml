@@ -2,6 +2,9 @@ languageCode = "en-us"
 title = "Prologue"
 baseurl = "https://vitr.github.io/vvitr.com"
 theme = "prologue"
+#https://discourse.gohugo.io/t/issue-when-baseurl-have-subdirectory/4088/7
+RelativeURLs=true
+CanonifyURLs=true
 
 [params]
   name = "Jane Doe"
