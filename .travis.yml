@@ -1,15 +1,10 @@
-# Install the apt prerequisites
-addons:
-  apt:
-    packages:
-      - python-pygments
-# Clean and don't fail
+language: go
+go:
+  - master # This uses automatically the latest version of go
 install:
-  - rm -rf public || exit 0
-# Build the website
+  - go get github.com/spf13/hugo # This provides the latest version of Hugo to Travis CI
 script:
-  - cd src
-  - ../binaries/hugo --theme=prologue
+  - hugo # This commands builds your website on travis
 # Deploy to GitHub pages
 deploy:
   provider: pages
