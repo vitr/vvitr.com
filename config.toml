@@ -10,6 +10,7 @@ CanonifyURLs=true
   name = "Jane Doe"
   description = "Hyperspace Engineer"
   copyright = "Untitled."
+  email = "vit@vvitr.com"
 
 [[params.social]]
   medium = "twitter"
