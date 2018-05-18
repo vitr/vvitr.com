@@ -67,3 +67,12 @@ fabric.properties
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
+.idea/
+static/ResumeVitaliyRyepnoy2018.pdf
+static/favicon.ico
+static/favicon.png
+themes/prologue/static/ResumeVitaliyRyepnoy2018.pdf
+themes/prologue/static/favicon.ico
+themes/prologue/static/favicon.png
+themes/prologue/static/img/banner.png
+themes/prologue/static/img/banner2.jpg

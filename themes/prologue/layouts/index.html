@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
+        <link rel="shortcut icon" href="favicon.png">
 	</head>
 	<body>
 
@@ -29,6 +30,8 @@
 						</div>
 
 					<!-- Nav -->
+
+
 						<nav id="nav">
 							<!--
 
@@ -45,16 +48,20 @@
 							-->
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Expertise</span></a></li>
+								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About</span></a></li>
 								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
 							</ul>
+
+
 						</nav>
 
 				</div>
 
 				<div class="bottom">
-
+                    <div style="text-align: center;width: 100%;">
+                    <a style="border-bottom: none;" href="https://www.zend.com/en/yellow-pages/ZEND017857" target="_blank" title="see my profile on Zend Yellow Pages"><img src="https://www.zend.com/static-assets/img/zcedirectory/ZCE-PHP5-3-logo-XS.jpg" width="45" alt="Vitaliy Ryepnoy - ZCE"></a>
+                    </div>
 					<!-- Social Icons -->
 						<ul class="icons">
               {{ range .Site.Params.social }}
@@ -74,69 +81,67 @@
 						<div class="container">
 
 							<header>
-								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
-								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
-								<p>Ligula scelerisque justo sem accumsan diam quis<br />
-								vitae natoque dictum sollicitudin elementum.</p>
+								<h2 class="alt">Hi! I'm <strong>Vitaliy</strong>, a Software Engineer<br />
+								with 20+ years of experience in software development.</h2>
+								<p>I help businesses, startups and entrepreneurs bring their ideas to life.<br />
+								Got a project you need help with? Feel free to drop me a line!</p>
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+								<a href="#contact" class="button scrolly">Contact Me</a>
 							</footer>
 
 						</div>
 					</section>
 
-				<!-- Portfolio -->
+				<!-- Expertise -->
 					<section id="portfolio" class="two">
 						<div class="container">
 
 							<header>
-								<h2>Portfolio</h2>
+								<h2>Expertise</h2>
 							</header>
 
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
+                            <ul>
+                                <li>
+									<h3>Programming / Testing</h3>
+                                <p style="text-align: justify">
+									Nowadays I mostly code backend services in Go, but consider me as a polyglot.
+                                    I started with BASIC when I was a teenager. Since then I've used a couple of dozens different programming languages. In my professional career I've mostly used PHP and JavaScript. I also worked with code in C#, Coldfusion, Objective C, Java and Delphi. I like to explore new languages and shifting programming paradigms: object-oriented, functional, procedural, declarative.
+Testing is a significant part of my coding process.  I love writing all kinds of tests: unit, integration, acceptance. Testing is what makes our everyday work easier. I like mixing testing approaches from different languages and using specific xUnit frameworks and test automation tools.
+                                </p>
 
+                                </li>
+                                <li>
+                                    <h3>Software Architecture / API Design</h3>
+								<p style="text-align: justify">
+                                    My design approach is based on reusing well known frameworks, strong focus on simplicity and clarity, and deep understanding of domain-specific constraints. I'm trying to follow RESTful API principles and best practices in HTTP communications. Recently I started using Protocol Buffers and gRPC.
+								</p>
+								</li>
+                                <li>
+                                    <h3>DevOps / Server Management / Docker</h3>
+								<p style="text-align: justify">
+                                    I am an active participant in devops movement that emphasizes the collaboration and communication of both software developers and other IT professionals while automating the process of software delivery and infrastructure changes. I use Docker everywhere: from development to testing and production.
+									As Unix specialist I like command line and always can help with server administration tasks. I'm familiar with the systems development life cycle (SDLC) and can organise the full cycle from planning to monitoring. I use AWS (Amazon Web Services) for various projects all the time and I've also got a couple of hobby projects on Google Cloud.
+								</p>
+								</li>
+                                <li>
+                                    <h3>Client Side Apps / UI & UX Consulting</h3>
+									<p style="text-align: justify">
+                                        I like coding in javascript, hacking something in node and improving UI with Angular or Vue. My biggest javascript script project is written with CreateJS library. It's a rich in-browser media and custom slide show player. I'm familiar with all major operating systems: Windows, MacOS, Linux.
+									</p>
 
-              <div class="row">
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio1 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
+								</li>
 
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio2 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
+                                <li>
+                                    <h3>Mobile Development</h3>
+									<p style="text-align: justify">
+                                        I've got an experience with publishing mobile apps to both Google Play and App Store. While personally I prefer native applications, I worked with hybrid and web mobile application frameworks. Any decent mobile app is built upon solid backend API, that I can also design from the ground.
+									</p>
 
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio3 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
-              </div>
+								</li>
 
-
+                            </ul>
 						</div>
 					</section>
 
@@ -148,14 +153,30 @@
 								<h2>About Me</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="img/about.jpg" alt="" /></a>
 
-							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
-							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
-							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
-							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
-							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
-							ornare iaculis.</p>
+                                <p style="text-align: justify">
+                                    I help software companies and startups bring their products to the top by providing expertise in programming, API design and software architecture.
+									I've worked in automotive, finance and real estate industries and my knowledge and experience are applicable to any other business domains. I'm a business oriented software developer and I bring a strategic overview of any technology challenges. My motto is <b>"First, solve the problem. Then, write the code."</b> I enjoy programming and everything connected to it. I strive to write efficient, maintainable and clean code.
+                                </p>
+                                <p style="text-align: justify">
+
+                                    I've got a bachelor's degree in Computer Science and over 20 years of experience in software development.
+                                    Most of that time I spent programming backend services and web applications in PHP.
+                                    I'm a <a href="https://www.zend.com/en/yellow-pages/ZEND017857" target="_blank" title="see my profile on Zend Yellow Pages"><span>Zend Certified Engineer</span></a>
+                                    (<a href="https://en.wikipedia.org/wiki/Zend_Technologies#Zend_Certification_Test" target="_blank" title="read more about Zend on Wikipedia"><span>ZCE</span></a>), but I'm very open to new programming languages. Recently I switched to Go as my language of choice for the modern web.
+                                </p>
+                                <p style="text-align: justify">
+                                    I often think about how do we, programmers, can improve our very young industry overall? I believe in testing, it's the right thing to do in our journey to perfection. Tests help us to write clean, maintainable code and should be considered as a part of any production code base.
+                                </p>
+                                <p style="text-align: justify">
+                                    All in all, I'm just a guy who likes to find and solve problems and make things happen. I live in sunny Brisbane, Australia and I'm open to remote work. You are welcome to download my resume.
+                                </p>
+
+                                    <div class="columns download">
+                                        <p>
+                                            <a href="ResumeVitaliyRyepnoy2018.pdf" class="button" target="_blank"><i class="fa fa-download"></i>Download Resume</a>
+                                        </p>
+                                    </div>
 
 						</div>
 					</section>
@@ -168,11 +189,9 @@
 								<h2>Contact</h2>
 							</header>
 
-							<p>Elementum sem parturient nulla quam placerat viverra
-							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
-							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
-							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
-
+							<p>
+								I LOVE helping people! I'm always open to new projects and ideas. Even if I'm busy with my current work, I try to respond everyone, understand their needs and suggest the best technical approach. Please, don't hesitate to contact me via Twitter, Facebook, Telegram or the form below.
+							</p>
                             <form method="post" action="//formspree.io/{{ with .Site.Params.email }}{{.}}{{ end }}">
 								<div class="row">
 									<div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>

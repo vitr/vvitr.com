@@ -1556,7 +1556,7 @@
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #ddd;
 	}
 
 		body.is-loading * {
@@ -1575,7 +1575,7 @@
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #888;
+		color: #ddd;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
@@ -1987,7 +1987,8 @@
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background: #222629 url("images/overlay.png");
+		/*background: #222629 url("images/overlay.png");*/
+		background: #0E0E0E url("images/overlay.png");
 		box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
 		color: #fff;
 		height: 100%;
@@ -2112,7 +2113,7 @@
 	#footer {
 		margin-left: 375px;
 		text-align: center;
-		background-color: #dce3e2;
+		background-color: #191919;
 		padding: 3em 0 4em 0;
 		box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 		font-size: 0.8em;
@@ -2182,20 +2183,22 @@
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../img/banner.jpg");
+				/*background-color: #313438;*/
+				background-color: #191919;
+				/*background-image: url("../img/banner.png");*/
 			}
 
 			#main > section.two {
-				background-color: #f5fafa;
+				/*background-color: #111111;*/
+				background-color: #191919;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #191919;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #191919;
 			}
 
 /* Wide */
@@ -2375,8 +2378,8 @@
 				width: 275px;
 				z-index: 10002;
 				width: 275px;
-				background: #222729 url("images/overlay.png");
-				box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);
+				background: #0E0E0E url("images/overlay.png");
+				/*box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.125);*/
 			}
 
 				#header .top {

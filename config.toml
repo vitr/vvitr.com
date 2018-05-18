@@ -1,5 +1,5 @@
 languageCode = "en-us"
-title = "Prologue"
+title = "Vitaliy Ryepnoy - Software Engineer"
 baseurl = "https://vitr.github.io/vvitr.com"
 theme = "prologue"
 #https://discourse.gohugo.io/t/issue-when-baseurl-have-subdirectory/4088/7
@@ -7,35 +7,41 @@ RelativeURLs=true
 CanonifyURLs=true
 
 [params]
-  name = "Jane Doe"
-  description = "Hyperspace Engineer"
-  copyright = "Untitled."
+  name = "Vitaliy Ryepnoy"
+  description = "Software Engineer"
+  copyright = "2016-2018 Vitaliy Ryepnoy ABN 29 901 015 152"
   email = "vit@vvitr.com"
 
 [[params.social]]
   medium = "twitter"
   icon = "twitter"
-  link = "#"
+  link = "https://twitter.com/_vitr_"
 
 [[params.social]]
   medium = "facebook"
   icon = "facebook"
-  link = "#"
+  link = "https://www.facebook.com/vitaliy.ryepnoy"
 
 [[params.social]]
   medium = "github"
   icon = "github"
-  link = "#"
+  link = "https://github.com/vitr"
 
 [[params.social]]
-  medium = "dribbble"
-  icon = "dribbble"
-  link = "#"
+  medium = "stack-overflow"
+  icon = "stack-overflow"
+  link = "https://stackoverflow.com/users/4986182/vitr?tab=profile"
 
 [[params.social]]
-  medium = "email"
-  icon = "envelope"
-  link = "#"
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/vitaliyr"
+
+[[params.social]]
+  medium = "telegram"
+  icon = "telegram"
+  link = "https://t.me/vvitr"
+
 
 # Portfolio column one
 
