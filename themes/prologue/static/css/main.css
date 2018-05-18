@@ -1556,7 +1556,7 @@
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #000000;
+		color: #ddd;
 	}
 
 		body.is-loading * {
@@ -1575,7 +1575,7 @@
 		font-size: 19pt;
 		font-weight: 300;
 		line-height: 1.75em;
-		color: #ddd;
+		color: #000;
 	}
 
 	h1, h2, h3, h4, h5, h6 {

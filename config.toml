@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Vitaliy Ryepnoy - Software Engineer"
-baseurl = "https://vitr.github.io/vvitr.com"
+baseurl = "https://vvitr.com"
 theme = "prologue"
 #https://discourse.gohugo.io/t/issue-when-baseurl-have-subdirectory/4088/7
 RelativeURLs=true
