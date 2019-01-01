@@ -9,7 +9,7 @@ CanonifyURLs=true
 [params]
   name = "Vitaliy Ryepnoy"
   description = "Software Engineer"
-  copyright = "2016-2018 Vitaliy Ryepnoy ABN 29 901 015 152"
+  copyright = "2016-2019 Vitaliy Ryepnoy ABN 29 901 015 152"
   email = "vit@vvitr.com"
 
 [[params.social]]
